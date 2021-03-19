@@ -25,6 +25,7 @@ quote_text = canvas.create_text(150, 207, text="Click My Face To Get Some Quotes
 canvas.grid(row=0, column=0)
 
 kanye_img = PhotoImage(file="kanye.png")
+# after pressing this key u will get new quote each time
 kanye_button = Button(image=kanye_img, highlightthickness=0, command=get_quote)
 kanye_button.grid(row=1, column=0)
 
